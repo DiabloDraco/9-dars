@@ -1906,6 +1906,7 @@ h1, h2, h3, h4, h5, h6, p {
     color: #83888F;
     margin-bottom: 80px;
     max-width: 255px;
+    text-align: center;
     width: 100%;
   }
   .works__list {
