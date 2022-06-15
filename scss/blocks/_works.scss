@@ -1,0 +1,235 @@
+.works {
+
+    &__container {
+        padding-left: 85px;
+        padding-right: 85px;
+        margin-bottom: 216px;
+    }
+
+    &__inner-wrapper {
+    }
+
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 80px;
+    }
+
+    &__list-wrapper {
+    }
+
+    &__list {
+        display: flex;
+        margin-bottom: 64px;
+    }
+
+    &__list-item {
+        max-width: 380px;
+        padding-right: 95px;
+        width: 100%;
+        position: relative;
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+
+    &__circle {
+        display: inline-block;
+        width: 31px;
+        height: 31px;
+        background-image: url(./../../images/Oval.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-bottom: 67px;
+        &::after {
+            content: "";
+            display: inline-block;
+            height: 2px;
+            width: 100%;
+            top: 15.5px;
+            background-color: #FDD6BA;
+            position: absolute;
+            z-index: -1;
+        }
+        
+    }
+
+    &__circle1 {
+        display: inline-block;
+        width: 31px;
+        height: 31px;
+        background-image: url(./../../images/Oval.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-bottom: 67px;
+        
+    }
+
+    &__number {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+        margin-bottom: 38px;
+    }
+
+    &__list-heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        margin-bottom: 42px;
+    }
+
+    &__text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+
+    &__button {
+        text-decoration: none;
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        padding: 16px 31px;
+        background-color: #66D2CF;
+        border-radius: 6px;
+    }
+}
+
+@media only screen and (max-width: 1000px) { 
+    /* TABLET */
+
+    &__container {
+        max-width: 689px;
+        padding-left: 85px;
+        padding-right: 85px;
+        margin-bottom: 160px;
+    }
+
+    &__inner-wrapper {
+    }
+
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 40px;
+    }
+
+    &__list-wrapper {
+    }
+
+    &__list {
+        display: flex;
+        margin-bottom: 64px;
+    }
+
+    &__list-item {
+        max-width: 380px;
+        padding-right: 95px;
+        width: 100%;
+        position: relative;
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+
+    &__circle {
+        display: inline-block;
+        width: 31px;
+        height: 31px;
+        background-image: url(./../../images/Oval.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-bottom: 67px;
+        &::after {
+            content: "";
+            display: inline-block;
+            height: 2px;
+            width: 100%;
+            top: 15.5px;
+            background-color: #FDD6BA;
+            position: absolute;
+            z-index: -1;
+        }
+        
+    }
+
+    &__circle1 {
+        display: inline-block;
+        width: 31px;
+        height: 31px;
+        background-image: url(./../../images/Oval.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-bottom: 67px;
+        
+    }
+
+    &__number {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+        margin-bottom: 38px;
+    }
+
+    &__list-heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        margin-bottom: 42px;
+    }
+
+    &__text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+
+    &__button {
+        text-decoration: none;
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        padding: 16px 31px;
+        background-color: #66D2CF;
+        border-radius: 6px;
+    }
+}
