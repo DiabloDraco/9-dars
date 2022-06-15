@@ -927,7 +927,7 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 700px) {
   /* MOBILE */
   .collection {
     margin-bottom: 129px;
@@ -1764,6 +1764,111 @@ h1, h2, h3, h4, h5, h6, p {
   __list-item {
     max-width: 233px;
     padding-right: 10px;
+    width: 100%;
+    position: relative;
+  }
+  __list-item:last-child {
+    padding-right: 0;
+  }
+  __circle {
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    background-image: url(./../../images/Oval.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 48px;
+  }
+  __circle::after {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 100%;
+    top: 15.5px;
+    background-color: #FDD6BA;
+    position: absolute;
+    z-index: -1;
+  }
+  __circle1 {
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    background-image: url(./../../images/Oval.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 48px;
+  }
+  __number {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    margin-bottom: 42px;
+  }
+  __list-heading {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 32px;
+    color: #333D4B;
+    margin-bottom: 38px;
+    width: 223px;
+  }
+  __text {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #333D4B;
+    width: 223px;
+  }
+  __button {
+    text-decoration: none;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    padding: 16px 31px;
+    background-color: #66D2CF;
+    border-radius: 6px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  /* TABLET */
+  __container {
+    max-width: 327px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 120px;
+  }
+  __heading {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 80px;
+    max-width: 255px;
+    width: 100%;
+  }
+  __list {
+    display: row;
+    margin-bottom: 79px;
+  }
+  __list-item {
+    max-width: 327px;
+    padding-right: 0px;
     width: 100%;
     position: relative;
   }
