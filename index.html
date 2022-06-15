@@ -9,13 +9,101 @@
 </head>
 <body>
 	<header class="header">
-		<div class="container">
+		<div class="container header__inner-wrapper">
+			<div class="header__container">
+				<a class="header__link" href="index.html">
+					<img class="header__logo" src="./images/logo.svg" alt="logo" width="235" height="25">
+				</a>
+				
+				<nav class="header__nav">
+					<ul class="header__list">
+						<li class="header__item header__item-current">
+							<a class="header__item-link" href="#">
+								Home
+							</a>
+						</li>
+						<li class="header__item">
+							<a class="header__item-link" href="#">
+								About us
+							</a>
+						</li>
+						<li class="header__item">
+							<a class="header__item-link" href="#">
+								Create your plan
+							</a>
+						</li>
+					</ul>
+				</nav>
+
+				<button class="header__button">
+					<img class="header__btn-img" src="./images/burger-menu.svg" alt="menu" width="16" height="15">
+
+					<img class="header__btn-img-cross" src="./images/burger-menu-cross.svg" alt="menu" width="16" height="15">
+				</button>
+			</div>
 		</div>
 	</header>
 	
 	<main>
-		<section class="hero"> 
-			<div class="container">
+		<section class="cbanner"> 
+			<div class="cbanner__container container">
+				<div class="cbanner__inner-wrapper">
+					<h2 class="cbanner__heading">Great coffee made simple.</h2>
+					<p class="cbanner__text">Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
+					<a class="cbanner__button" href="#">Create your plan</a>
+				</div>
+			</div>
+		</section>
+		<section class="collection">
+			<div class="collection__container container">
+				<div class="collection__inner-wrapper">
+					<ul class="collection__list">
+						<li class="collection__item">
+							<img class="collection__item-img" src="./images/collection1.png" alt="coffee" width="256" height="193">
+							<div class="collection__item-wrapper">
+								<h2 class="collection__item-heading">
+									Gran Espresso
+								</h2>
+								<p class="collection__item-text">
+									Light and flavorful blend with cocoa and black pepper for an intense experience
+								</p>
+							</div>
+						</li>
+						<li class="collection__item">
+							<img class="collection__item-img" src="./images/collection2.png" alt="coffee" width="256" height="193">
+							<div class="collection__item-wrapper">
+								<h2 class="collection__item-heading">
+									Gran Espresso
+								</h2>
+								<p class="collection__item-text">
+									Light and flavorful blend with cocoa and black pepper for an intense experience
+								</p>
+							</div>
+						</li>
+						<li class="collection__item">
+							<img class="collection__item-img" src="./images/collection3.png" alt="coffee" width="256" height="193">
+							<div class="collection__item-wrapper">
+								<h2 class="collection__item-heading">
+									Gran Espresso
+								</h2>
+								<p class="collection__item-text">
+									Light and flavorful blend with cocoa and black pepper for an intense experience
+								</p>
+							</div>
+						</li>
+						<li class="collection__item">
+							<img class="collection__item-img" src="./images/collection4.png" alt="coffee" width="256" height="193">
+							<div class="collection__item-wrapper">
+								<h2 class="collection__item-heading">
+									Gran Espresso
+								</h2>
+								<p class="collection__item-text">
+									Light and flavorful blend with cocoa and black pepper for an intense experience
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</section>        
 	</main>
@@ -24,5 +112,7 @@
 		<div class="container">
 		</div>
 	</footer>
+	
+	<script src="./js/main.js"></script>
 </body>
 </html>
