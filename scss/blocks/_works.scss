@@ -118,6 +118,8 @@
 @media only screen and (max-width: 1000px) { 
     /* TABLET */
 
+.works {
+   
     &__container {
         max-width: 689px;
         padding-left: 20px;
@@ -237,12 +239,14 @@
         border-radius: 6px;
     }
 }
+}
 
 @media only screen and (max-width: 1000px) { 
     /* TABLET */
 
+.works{
     &__container {
-        max-width: 327px;
+        max-width: 689px;
         padding-left: 20px;
         padding-right: 20px;
         margin-bottom: 120px;
@@ -259,7 +263,7 @@
         line-height: 32px;
         color: #83888F;
         margin-bottom: 40px;
-        max-width: 255px;
+        max-width: 223px;
         width: 100%;
     }
 
@@ -360,14 +364,15 @@
         border-radius: 6px;
     }
 }
+}
 
-@media only screen and (max-width: 900px) { 
-    /* TABLET */
-
+@media only screen and (max-width: 700px) { 
+    /* MOBILE */
+.works{
     &__container {
         max-width: 327px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: auto;
+        padding-right: auto;
         margin-bottom: 120px;
     }
 
@@ -390,7 +395,8 @@
     }
 
     &__list {
-        display: row;
+        display: flex;
+        flex-direction: column;
         margin-bottom: 79px;
     }
 
@@ -399,13 +405,15 @@
         padding-right: 0px;
         width: 100%;
         position: relative;
+        margin-bottom: 56px;
         &:last-child {
             padding-right: 0;
+            margin-bottom: 0;
         }
     }
 
     &__circle {
-        display: inline-block;
+        display: none;
         width: 31px;
         height: 31px;
         background-image: url(./../../images/Oval.svg);
@@ -427,7 +435,7 @@
     }
 
     &__circle1 {
-        display: inline-block;
+        display: none;
         width: 31px;
         height: 31px;
         background-image: url(./../../images/Oval.svg);
@@ -455,8 +463,8 @@
         font-size: 28px;
         line-height: 32px;
         color: #333D4B;
-        margin-bottom: 38px;
-        width: 223px;
+        margin-bottom: 24px;
+        width: 327px;
     }
 
     &__text {
@@ -482,4 +490,5 @@
         background-color: #66D2CF;
         border-radius: 6px;
     }
+}
 }
