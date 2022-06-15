@@ -120,19 +120,25 @@
     /* MOBILE */
     .cbanner {
         margin-bottom: 120px;
-
         &__container {
+            background-image: none;
+            padding: 0;
+            padding-right: 24px;
+            padding-left: 24px;
+        }
+
+        &__wrapper {
             background-image: url(./../../images/Cbanner-m.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
-            max-width: 1280px;
+            max-width: 327px;
             width: 100%;
             height: 500px;
             border-radius: 10px;
             padding: 100px 24px;
         }
-
+        
         &__inner-wrapper {
             max-width: 279px;
             width: 100%;
@@ -146,6 +152,7 @@
             line-height: 40px;
             color: #FEFCF7;
             margin-bottom: 24px;
+            text-align: center;
         }
 
         &__text {
@@ -157,6 +164,7 @@
             color: #FEFCF7;
             mix-blend-mode: normal;
             opacity: 0.8;
+            text-align: center;
             margin-bottom: 39px;
         }
 
@@ -172,6 +180,7 @@
             color: #FEFCF7;
             background-color: #66D2CF;
             border-radius: 6px;
+            margin-left: 30px;
         }
     }
 }
