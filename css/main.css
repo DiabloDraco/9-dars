@@ -1271,6 +1271,7 @@ h1, h2, h3, h4, h5, h6, p {
     padding-bottom: 151px;
   }
   .choose__container {
+    max-width: 327px;
     background-color: #2C343E;
     border-radius: 10px;
     padding-top: 64px;
@@ -1318,8 +1319,8 @@ h1, h2, h3, h4, h5, h6, p {
             flex-direction: column;
     gap: 24px;
     position: absolute;
-    -webkit-transform: translateX(10%);
-            transform: translateX(10%);
+    -webkit-transform: translateX(20%);
+            transform: translateX(20%);
     bottom: -800px;
   }
   .choose__item {

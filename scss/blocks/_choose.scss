@@ -263,6 +263,7 @@
         padding-bottom: 151px;
     
         &__container {
+            max-width: 327px;
             background-color: #2C343E;
             border-radius: 10px;
             padding-top: 64px;
@@ -316,7 +317,7 @@
             flex-direction: column;
             gap: 24px;
             position: absolute;
-            transform: translateX(10%);
+            transform: translateX(20%);
             bottom: -800px;
         }
         
