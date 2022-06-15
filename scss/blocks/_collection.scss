@@ -143,8 +143,9 @@
     .collection {
 
         margin-bottom: 129px;
-        padding-left: auto;
-        padding-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         &__container {
             padding-right: 0px;
             padding-left: 0px;
@@ -171,9 +172,7 @@
             max-width: 282px;
             width: 100%;
             display: inline-block;
-            align-items: center;
-            padding-left: auto;
-            padding-right: auto;
+            padding-left: 0;
         }
     
         &__item-img {

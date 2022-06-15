@@ -1,7 +1,5 @@
 .cbanner {
     margin-bottom: 136px;
-    padding-left: 20px;
-    padding-right: 20px;
     &__container {
         background-image: url(./../../images/Cbanner.jpg);
         background-repeat: no-repeat;
@@ -124,14 +122,15 @@
     /* MOBILE */
     .cbanner {
         margin-bottom: 120px;
+        padding-right: auto;
+        padding-left: auto;
         &__container {
             background-image: none;
             padding: 0;
-            padding-right: 24px;
-            padding-left: 24px;
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: center;
         }
 
         &__wrapper {
@@ -191,6 +190,7 @@
             color: #FEFCF7;
             background-color: #66D2CF;
             border-radius: 6px;
+            margin-left: 30px;
         }
     }
 }
