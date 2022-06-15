@@ -652,7 +652,7 @@ h1, h2, h3, h4, h5, h6, p {
   border-radius: 6px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   /* TABLET */
   .cbanner {
     margin-bottom: 144px;
@@ -667,6 +667,16 @@ h1, h2, h3, h4, h5, h6, p {
     height: 500px;
     border-radius: 10px;
     padding: 104px 58px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .cbanner__inner-wrapper {
     max-width: 398px;
@@ -707,7 +717,7 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 700px) {
   /* MOBILE */
   .cbanner {
     margin-bottom: 120px;
@@ -728,6 +738,16 @@ h1, h2, h3, h4, h5, h6, p {
     height: 500px;
     border-radius: 10px;
     padding: 100px 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .cbanner__inner-wrapper {
     max-width: 279px;
@@ -756,6 +776,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 39px;
   }
   .cbanner__button {
+    min-width: 200px;
     padding: 15px 31px 16px 31px;
     text-decoration: none;
     font-family: 'Fraunces';
@@ -767,7 +788,6 @@ h1, h2, h3, h4, h5, h6, p {
     color: #FEFCF7;
     background-color: #66D2CF;
     border-radius: 6px;
-    margin-left: 30px;
   }
 }
 
@@ -1247,7 +1267,7 @@ h1, h2, h3, h4, h5, h6, p {
     padding-left: 20px;
     padding-right: 20px;
     position: relative;
-    margin-bottom: 111px;
+    margin-bottom: 544px;
     padding-bottom: 151px;
   }
   .choose__container {
@@ -1374,7 +1394,7 @@ h1, h2, h3, h4, h5, h6, p {
     padding-left: 20px;
     padding-right: 20px;
     position: relative;
-    margin-bottom: 111px;
+    margin-bottom: 811px;
     padding-bottom: 151px;
   }
   .choose__container {
@@ -1596,7 +1616,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .works__button {
   text-decoration: none;
-  font-family: 'Fraunces 9pt';
+  font-family: 'Fraunces';
   font-style: normal;
   font-weight: 900;
   font-size: 18px;
@@ -1612,9 +1632,9 @@ h1, h2, h3, h4, h5, h6, p {
   /* TABLET */
   __container {
     max-width: 689px;
-    padding-left: 85px;
-    padding-right: 85px;
-    margin-bottom: 160px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 144px;
   }
   __heading {
     font-family: 'Fraunces';
@@ -1624,16 +1644,18 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 32px;
     color: #83888F;
     margin-bottom: 40px;
+    max-width: 255px;
+    width: 100%;
   }
   __list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 64px;
+    margin-bottom: 44px;
   }
   __list-item {
-    max-width: 380px;
-    padding-right: 95px;
+    max-width: 233px;
+    padding-right: 10px;
     width: 100%;
     position: relative;
   }
@@ -1648,7 +1670,7 @@ h1, h2, h3, h4, h5, h6, p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin-bottom: 67px;
+    margin-bottom: 48px;
   }
   __circle::after {
     content: "";
@@ -1668,7 +1690,7 @@ h1, h2, h3, h4, h5, h6, p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin-bottom: 67px;
+    margin-bottom: 48px;
   }
   __number {
     font-family: 'Fraunces';
@@ -1677,28 +1699,137 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 72px;
     line-height: 72px;
     color: #FDD6BA;
-    margin-bottom: 38px;
+    margin-bottom: 42px;
   }
   __list-heading {
     font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
-    font-size: 32px;
-    line-height: 36px;
+    font-size: 28px;
+    line-height: 32px;
     color: #333D4B;
-    margin-bottom: 42px;
+    margin-bottom: 38px;
+    width: 223px;
   }
   __text {
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 15px;
+    line-height: 25px;
     color: #333D4B;
+    width: 223px;
   }
   __button {
     text-decoration: none;
-    font-family: 'Fraunces 9pt';
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    padding: 16px 31px;
+    background-color: #66D2CF;
+    border-radius: 6px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  /* TABLET */
+  __container {
+    max-width: 327px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 120px;
+  }
+  __heading {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 40px;
+    max-width: 255px;
+    width: 100%;
+  }
+  __list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 44px;
+  }
+  __list-item {
+    max-width: 233px;
+    padding-right: 10px;
+    width: 100%;
+    position: relative;
+  }
+  __list-item:last-child {
+    padding-right: 0;
+  }
+  __circle {
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    background-image: url(./../../images/Oval.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 48px;
+  }
+  __circle::after {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 100%;
+    top: 15.5px;
+    background-color: #FDD6BA;
+    position: absolute;
+    z-index: -1;
+  }
+  __circle1 {
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    background-image: url(./../../images/Oval.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 48px;
+  }
+  __number {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    margin-bottom: 42px;
+  }
+  __list-heading {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 32px;
+    color: #333D4B;
+    margin-bottom: 38px;
+    width: 223px;
+  }
+  __text {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #333D4B;
+    width: 223px;
+  }
+  __button {
+    text-decoration: none;
+    font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
