@@ -388,7 +388,7 @@
         line-height: 32px;
         color: #83888F;
         margin-bottom: 80px;
-        max-width: 255px;
+        max-width: 327px;
         text-align: center;
         width: 100%;
     }
@@ -494,6 +494,9 @@
         padding: 16px 31px;
         background-color: #66D2CF;
         border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 }
