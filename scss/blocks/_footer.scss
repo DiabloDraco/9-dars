@@ -108,6 +108,10 @@
     .footer {
 
         &__container {
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             max-width: 367px;
             width: 100%;
             background-color: #2C343E;

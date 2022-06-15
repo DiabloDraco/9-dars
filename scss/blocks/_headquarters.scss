@@ -104,3 +104,236 @@
     } 
 }
 
+@media only screen and (max-width: 1000px) {
+    /* TABLET */
+
+    .headquarters {
+        
+        &__container {
+            padding: 0;
+            max-width: 688px;
+            width: 100%;
+            margin-bottom: 144px;
+        }
+    
+        &__heading {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #83888F;
+            margin-bottom: 72px;
+        }
+    
+        &__list {
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+            justify-content: space-between;
+            gap: 10px;
+        }
+    
+        &__item-heading-uk {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 36px;
+            color: #333D4B;
+            padding-top: 98px;
+            position: relative;
+            margin-bottom: 21px;
+        }
+    
+        &__item-heading-uk::before {
+            content: "";
+            display: inline-block;
+            background-image: url(./../../images/uk.svg);
+            background-repeat: no-repeat;
+            width: 52px;
+            height: 49px;
+            background-size: contain;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }   
+    
+        &__item-list {
+            list-style-type: none;
+            padding: 0;
+        }
+    
+        &__list-item {
+            line-height: 26px;
+            color: #333D4B;
+        }
+    
+        &__item-heading-canada {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 36px;
+            color: #333D4B;
+            padding-top: 95px;
+            position: relative;
+            margin-bottom: 21px;
+        }
+    
+        &__item-heading-canada::before {
+            content: "";
+            display: inline-block;
+            background-image: url(./../../images/canada.svg);
+            background-repeat: no-repeat;
+            width: 52px;
+            height: 49px;
+            background-size: contain;
+            position: absolute;
+            top: 0;
+        } 
+        &__item-heading-aus {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 36px;
+            color: #333D4B;
+            padding-top: 95px;
+            position: relative;
+            margin-bottom: 21px;
+        }
+    
+        &__item-heading-aus::before {
+            content: "";
+            display: inline-block;
+            background-image: url(./../../images/australia.svg);
+            background-repeat: no-repeat;
+            width: 52px;
+            height: 49px;
+            background-size: contain;
+            position: absolute;
+            top: 0;
+        } 
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    /* MOBILE */
+
+    .headquarters {
+
+        &__container {
+            padding: 0;
+            max-width: 327px;
+            width: 100%;
+            margin-bottom: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        &__heading {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: #83888F;
+            margin-bottom: 72px;
+        }
+    
+        &__list {
+            display: flex;
+            flex-direction: column;
+            list-style-type: none;
+            padding: 0;
+            justify-content: center;
+            gap: 80px;
+        }
+    
+        &__item-heading-uk {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 36px;
+            color: #333D4B;
+            padding-top: 98px;
+            position: relative;
+            margin-bottom: 22px;
+        }
+    
+        &__item-heading-uk::before {
+            content: "";
+            display: inline-block;
+            background-image: url(./../../images/uk.svg);
+            background-repeat: no-repeat;
+            width: 52px;
+            height: 49px;
+            background-size: contain;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }   
+    
+        &__item-list {
+            list-style-type: none;
+            padding: 0;
+        }
+    
+        &__list-item {
+            line-height: 26px;
+            color: #333D4B;
+        }
+    
+        &__item-heading-canada {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 36px;
+            color: #333D4B;
+            padding-top: 95px;
+            position: relative;
+            margin-bottom: 22px;
+        }
+    
+        &__item-heading-canada::before {
+            content: "";
+            display: inline-block;
+            background-image: url(./../../images/canada.svg);
+            background-repeat: no-repeat;
+            width: 52px;
+            height: 49px;
+            background-size: contain;
+            position: absolute;
+            top: 0;
+        } 
+        &__item-heading-aus {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 36px;
+            color: #333D4B;
+            padding-top: 95px;
+            position: relative;
+            margin-bottom: 22px;
+        }
+    
+        &__item-heading-aus::before {
+            content: "";
+            display: inline-block;
+            background-image: url(./../../images/australia.svg);
+            background-repeat: no-repeat;
+            width: 52px;
+            height: 49px;
+            background-size: contain;
+            position: absolute;
+            top: 0;
+        } 
+    }
+}

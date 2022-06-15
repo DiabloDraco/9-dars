@@ -2594,6 +2594,234 @@ h1, h2, h3, h4, h5, h6, p {
   top: 0;
 }
 
+@media only screen and (max-width: 1000px) {
+  /* TABLET */
+  .headquarters__container {
+    padding: 0;
+    max-width: 688px;
+    width: 100%;
+    margin-bottom: 144px;
+  }
+  .headquarters__heading {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 72px;
+  }
+  .headquarters__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 10px;
+  }
+  .headquarters__item-heading-uk {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333D4B;
+    padding-top: 98px;
+    position: relative;
+    margin-bottom: 21px;
+  }
+  .headquarters__item-heading-uk::before {
+    content: "";
+    display: inline-block;
+    background-image: url(./../../images/uk.svg);
+    background-repeat: no-repeat;
+    width: 52px;
+    height: 49px;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .headquarters__item-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .headquarters__list-item {
+    line-height: 26px;
+    color: #333D4B;
+  }
+  .headquarters__item-heading-canada {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333D4B;
+    padding-top: 95px;
+    position: relative;
+    margin-bottom: 21px;
+  }
+  .headquarters__item-heading-canada::before {
+    content: "";
+    display: inline-block;
+    background-image: url(./../../images/canada.svg);
+    background-repeat: no-repeat;
+    width: 52px;
+    height: 49px;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+  }
+  .headquarters__item-heading-aus {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333D4B;
+    padding-top: 95px;
+    position: relative;
+    margin-bottom: 21px;
+  }
+  .headquarters__item-heading-aus::before {
+    content: "";
+    display: inline-block;
+    background-image: url(./../../images/australia.svg);
+    background-repeat: no-repeat;
+    width: 52px;
+    height: 49px;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  /* MOBILE */
+  .headquarters__container {
+    padding: 0;
+    max-width: 327px;
+    width: 100%;
+    margin-bottom: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .headquarters__heading {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #83888F;
+    margin-bottom: 72px;
+  }
+  .headquarters__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 80px;
+  }
+  .headquarters__item-heading-uk {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 36px;
+    color: #333D4B;
+    padding-top: 98px;
+    position: relative;
+    margin-bottom: 22px;
+  }
+  .headquarters__item-heading-uk::before {
+    content: "";
+    display: inline-block;
+    background-image: url(./../../images/uk.svg);
+    background-repeat: no-repeat;
+    width: 52px;
+    height: 49px;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .headquarters__item-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .headquarters__list-item {
+    line-height: 26px;
+    color: #333D4B;
+  }
+  .headquarters__item-heading-canada {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 36px;
+    color: #333D4B;
+    padding-top: 95px;
+    position: relative;
+    margin-bottom: 22px;
+  }
+  .headquarters__item-heading-canada::before {
+    content: "";
+    display: inline-block;
+    background-image: url(./../../images/canada.svg);
+    background-repeat: no-repeat;
+    width: 52px;
+    height: 49px;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+  }
+  .headquarters__item-heading-aus {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 36px;
+    color: #333D4B;
+    padding-top: 95px;
+    position: relative;
+    margin-bottom: 22px;
+  }
+  .headquarters__item-heading-aus::before {
+    content: "";
+    display: inline-block;
+    background-image: url(./../../images/australia.svg);
+    background-repeat: no-repeat;
+    width: 52px;
+    height: 49px;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+  }
+}
+
 .footer__container {
   background-color: #2C343E;
   max-width: 1280px;
@@ -2705,6 +2933,17 @@ h1, h2, h3, h4, h5, h6, p {
 @media only screen and (max-width: 700px) {
   /* MOBILE */
   .footer__container {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     max-width: 367px;
     width: 100%;
     background-color: #2C343E;
