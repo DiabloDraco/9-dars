@@ -1,5 +1,8 @@
 .works {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     &__container {
         padding-left: 85px;
         padding-right: 85px;
@@ -373,6 +376,8 @@
     flex-direction: column;
     justify-content: center;
     &__container {
+        padding-left: none;
+        padding-right: none;
         max-width: 327px;
         margin-bottom: 120px;
     }
@@ -457,6 +462,8 @@
         color: #FDD6BA;
         text-align: center;
         margin-bottom: 42px;
+        max-width: 327px;
+        text-align: center;
     }
 
     &__list-heading {
