@@ -409,6 +409,10 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -2729,6 +2733,7 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     color: #83888F;
     margin-bottom: 72px;
+    text-align: center;
   }
   .headquarters__list {
     display: -webkit-box;
@@ -2755,6 +2760,7 @@ h1, h2, h3, h4, h5, h6, p {
     padding-top: 98px;
     position: relative;
     margin-bottom: 22px;
+    text-align: center;
   }
   .headquarters__item-heading-uk::before {
     content: "";
@@ -2765,8 +2771,9 @@ h1, h2, h3, h4, h5, h6, p {
     height: 49px;
     background-size: contain;
     position: absolute;
-    top: 0;
-    left: 0;
+    right: none;
+    left: none;
+    margin-left: 80px;
   }
   .headquarters__item-list {
     list-style-type: none;
@@ -2775,6 +2782,7 @@ h1, h2, h3, h4, h5, h6, p {
   .headquarters__list-item {
     line-height: 26px;
     color: #333D4B;
+    text-align: center;
   }
   .headquarters__item-heading-canada {
     font-family: 'Fraunces';
@@ -2786,6 +2794,7 @@ h1, h2, h3, h4, h5, h6, p {
     padding-top: 95px;
     position: relative;
     margin-bottom: 22px;
+    text-align: center;
   }
   .headquarters__item-heading-canada::before {
     content: "";
@@ -2796,7 +2805,9 @@ h1, h2, h3, h4, h5, h6, p {
     height: 49px;
     background-size: contain;
     position: absolute;
-    top: 0;
+    right: none;
+    left: none;
+    margin-left: 30px;
   }
   .headquarters__item-heading-aus {
     font-family: 'Fraunces';
@@ -2808,6 +2819,7 @@ h1, h2, h3, h4, h5, h6, p {
     padding-top: 95px;
     position: relative;
     margin-bottom: 22px;
+    text-align: center;
   }
   .headquarters__item-heading-aus::before {
     content: "";
@@ -2818,7 +2830,9 @@ h1, h2, h3, h4, h5, h6, p {
     height: 49px;
     background-size: contain;
     position: absolute;
-    top: 0;
+    right: none;
+    left: none;
+    margin-left: 30px;
   }
 }
 

@@ -243,6 +243,7 @@
             text-align: center;
             color: #83888F;
             margin-bottom: 72px;
+            text-align: center;
         }
     
         &__list {
@@ -264,6 +265,7 @@
             padding-top: 98px;
             position: relative;
             margin-bottom: 22px;
+            text-align: center;
         }
     
         &__item-heading-uk::before {
@@ -275,8 +277,9 @@
             height: 49px;
             background-size: contain;
             position: absolute;
-            top: 0;
-            left: 0;
+            right: none;
+            left: none;
+            margin-left: 80px;
         }   
     
         &__item-list {
@@ -287,6 +290,7 @@
         &__list-item {
             line-height: 26px;
             color: #333D4B;
+            text-align: center;
         }
     
         &__item-heading-canada {
@@ -299,6 +303,7 @@
             padding-top: 95px;
             position: relative;
             margin-bottom: 22px;
+            text-align: center;
         }
     
         &__item-heading-canada::before {
@@ -310,7 +315,9 @@
             height: 49px;
             background-size: contain;
             position: absolute;
-            top: 0;
+            right: none;
+            left: none;
+            margin-left: 30px;
         } 
         &__item-heading-aus {
             font-family: 'Fraunces';
@@ -322,6 +329,7 @@
             padding-top: 95px;
             position: relative;
             margin-bottom: 22px;
+            text-align: center;
         }
     
         &__item-heading-aus::before {
@@ -333,7 +341,9 @@
             height: 49px;
             background-size: contain;
             position: absolute;
-            top: 0;
+            right: none;
+            left: none;
+            margin-left: 30px;
         } 
     }
 }
