@@ -64,8 +64,6 @@
         }
     }
 }
-.container {
-}
 
 @media only screen and (max-width: 1000px) { 
     /* TABLET */
@@ -127,6 +125,78 @@
             border-radius: 6px;
             border: none;
             margin-bottom: 168px;
+            cursor: pointer;
+            &:hover {
+                background-color: #66D2CF;
+            }
+            &:active {
+                background-color: #E2DEDB;
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 700px) { 
+    /* MOBILE */
+
+    .summary {
+    
+        &__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            max-width: 375px;
+        }
+        
+        &__inner-wrapper {
+            max-width: 328px;
+            width: 100%;
+            background-color: #2C343E;
+            padding: 32px 24px;
+            margin-bottom: 56px;
+        }
+        
+        &__heading {
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+            margin-bottom: 8px;
+        }
+        
+        &__text {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 40px;
+            color: #FFFFFF;
+        }
+    
+        &__color {
+            color: #0E8784;
+        }
+    
+        &__button {
+            padding: 16px 31.5px;
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: #FEFCF7;
+            background-color: #0E8784;
+            border-radius: 6px;
+            border: none;
+            margin-bottom: 120px;
             cursor: pointer;
             &:hover {
                 background-color: #66D2CF;
