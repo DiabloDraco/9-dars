@@ -385,6 +385,9 @@
             width: 18px;
             height: 12px;
             background-image: url(./../../images/arrow_down.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
             display: inline-block;
             cursor: pointer;
         }
