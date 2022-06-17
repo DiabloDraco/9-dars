@@ -1,5 +1,8 @@
 .header {
+    position: fixed;
+    top: 0;
     background-color: #fff;
+    z-index: 99999;
     &__inner-wrapper {
     }
     max-width: 1280px;

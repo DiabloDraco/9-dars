@@ -1,5 +1,5 @@
 .about {
-    
+    padding-top: 111px;
     &__container {
         background-image: url(./../../images/about-bg.jpg);
         background-size: cover;
@@ -52,6 +52,7 @@
 
     .about {   
         padding-left: 40px;
+        padding-top: 111px;
         &__container {
             background-image: url(./../../images/about-bg.jpg);
             background-size: cover;
@@ -111,6 +112,7 @@
 
     .about {
     padding: 0;
+    padding-top: 23px;
     &__container {
         background-image: url(./../../images/about-bg.jpg);
         background-size: cover;

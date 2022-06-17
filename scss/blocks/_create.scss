@@ -1,0 +1,122 @@
+.create {
+    padding-top: 111px;
+    &__container {
+        background-image: url(./../../images/create.png);
+        width: 1280px;
+        height: 450px;
+        background-size: cover;
+        border-radius: 10px;
+        margin-bottom: 177px;
+    }
+
+    &__inner-wrapper {
+        padding: 134px 0 134px 85px;
+    }
+
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;       
+        margin-bottom: 32px; 
+        width: 485px;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        width: 445px;
+    }
+}
+
+@media only screen and (max-width: 1000px) { 
+    /* TABLET */
+
+    .create {
+        padding-top: 111px;
+        &__container {
+            background-image: url(./../../images/create.png);
+            width: 689px;
+            height: 400px;
+            background-size: cover;
+            border-radius: 10px;
+            margin-bottom: 144px;
+        }
+    
+        &__inner-wrapper {
+            padding: 127px 233px 126px 58px;
+        }
+    
+        &__heading {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 48px;
+            color: #FEFCF7;       
+            margin-bottom: 24px; 
+            max-width: 327px;
+            width: 100%;
+        }
+    
+        &__text {
+            font-size: 15px;
+            line-height: 25px;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            max-width: 398px;
+            width: 100%;
+        }
+    }
+    
+}
+ 
+@media only screen and (max-width: 650px) { 
+    /* MOBILE */
+    
+    .create {
+        padding-top: 23px;
+        &__container {
+            background-image: url(./../../images/create-m.png);
+            max-width: 327px;
+            width: 100%;
+            height: 400px;
+            background-size: cover;
+            border-radius: 10px;
+            margin-bottom: 120px;
+        }
+
+        &__inner-wrapper {
+            padding: 101px 24px 136px 24px ;
+        }
+
+        &__heading {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 40px;
+            color: #FEFCF7;       
+            margin-bottom: 22px; 
+            max-width: 279px;
+            width: 100%;
+        }
+
+        &__text {
+            font-size: 15px;
+            line-height: 25px;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            max-width: 279px;
+            width: 100%;
+        }
+    }
+}
+

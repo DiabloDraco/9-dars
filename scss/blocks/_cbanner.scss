@@ -1,5 +1,6 @@
 .cbanner {
     margin-bottom: 136px;
+    padding-top: 111px;
     &__container {
         background-image: url(./../../images/Cbanner.jpg);
         background-repeat: no-repeat;
@@ -59,7 +60,7 @@
 
     .cbanner {
         margin-bottom: 144px;
-
+        padding-top: 111px;
         &__container {
             background-image: url(./../../images/Cbanner.jpg);
             background-repeat: no-repeat;
@@ -122,6 +123,7 @@
     /* MOBILE */
     .cbanner {
         margin-bottom: 120px;
+        padding-top: 23px;
         padding-right: auto;
         padding-left: auto;
         &__container {
