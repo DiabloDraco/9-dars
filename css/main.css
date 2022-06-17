@@ -3765,6 +3765,7 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    gap: 16px;
   }
   .drink__form-item {
     display: -webkit-box;
