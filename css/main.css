@@ -436,7 +436,7 @@ a {
   position: fixed;
   top: 0;
   background-color: #fff;
-  z-index: 99999;
+  z-index: 9;
   max-width: 1280px;
   width: 100%;
 }
@@ -544,7 +544,7 @@ a {
     padding-left: 20px;
     padding-right: 20px;
     position: fixed;
-    z-index: 999;
+    z-index: 9;
     top: 0;
     left: 0;
     width: 100%;
@@ -3892,6 +3892,138 @@ a {
   background-color: #E2DEDB;
 }
 
+.summary__modal-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.summary__modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.summary__modal-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 588px;
+  border-radius: 8px;
+  z-index: 999;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.summary__modal .summary__top {
+  padding: 48px 148px 40px 56px;
+  background: #333D4B;
+}
+
+.summary__modal-heading {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+
+.summary__modal .summary__bottom {
+  background: #FEFCF7;
+  padding: 56px 56px 56px 56px;
+}
+
+.summary__modal-text {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: #83888F;
+  margin-bottom: 7px;
+}
+
+.summary__modal-desc {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.summary__modal-price {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  margin-right: 13px;
+}
+
+.modal__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 47px;
+}
+
+.modal__button {
+  padding: 16px 31.5px;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  background-color: #0E8784;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.modal__button:hover {
+  background-color: #66D2CF;
+}
+
+.modal__button:active {
+  background-color: #E2DEDB;
+}
+
+.modal__button-text {
+  display: none;
+}
+
 @media only screen and (max-width: 1000px) {
   /* TABLET */
   .summary__container {
@@ -3963,7 +4095,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
   /* MOBILE */
   .summary__container {
     display: -webkit-box;
@@ -4012,6 +4144,7 @@ a {
     color: #0E8784;
   }
   .summary__button {
+    min-width: 217px;
     padding: 16px 31.5px;
     font-family: 'Fraunces';
     font-style: normal;
@@ -4031,6 +4164,125 @@ a {
   }
   .summary__button:active {
     background-color: #E2DEDB;
+  }
+  .summary__modal-active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .summary__modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+  }
+  .summary__modal-container {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 588px;
+    border-radius: 8px;
+    z-index: 999;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .summary__modal .summary__top {
+    padding: 48px 148px 40px 56px;
+    background: #333D4B;
+  }
+  .summary__modal-heading {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+  }
+  .summary__modal .summary__bottom {
+    background: #FEFCF7;
+    padding: 56px 56px 56px 56px;
+  }
+  .summary__modal-text {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #83888F;
+    margin-bottom: 7px;
+  }
+  .summary__modal-desc {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  .summary__modal-price {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin-right: 13px;
+    display: none;
+  }
+  .modal__bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 47px;
+  }
+  .modal__button {
+    padding: 16px 31.5px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    background-color: #0E8784;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  .modal__button:hover {
+    background-color: #66D2CF;
+  }
+  .modal__button:active {
+    background-color: #E2DEDB;
+  }
+  .modal__button-text {
+    display: inline-block;
   }
 }
 

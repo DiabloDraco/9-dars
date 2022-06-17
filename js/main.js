@@ -16,3 +16,15 @@ elForm.addEventListener("click", function(evt) {
     parentClass.classList.toggle("drink__r-item--open")
   }
 })
+
+var elBtn = document.querySelector(".summary__button")
+var elModal = document.querySelector(".summary__modal")
+var elModalHeader = document.querySelector(".summary__modal-heading")
+
+elBtn.addEventListener("click", function () {
+  elModal.classList.add("summary__modal-active")
+})
+
+elModalHeader.addEventListener("click", function () {
+  elModal.classList.remove("summary__modal-active")
+})
